@@ -30,7 +30,6 @@ extern "C" {
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f1xx_hal.h"
 
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -59,18 +58,32 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define LED_RED_Pin GPIO_PIN_5
-#define LED_RED_GPIO_Port GPIOA
-#define LED_YELLOW_Pin GPIO_PIN_6
-#define LED_YELLOW_GPIO_Port GPIOA
-#define LED_GREEN_Pin GPIO_PIN_7
-#define LED_GREEN_GPIO_Port GPIOA
+#define LED_RED_1_Pin GPIO_PIN_1
+#define LED_RED_1_GPIO_Port GPIOA
+#define LED_YELLOW_1_Pin GPIO_PIN_2
+#define LED_YELLOW_1_GPIO_Port GPIOA
+#define LED_GREEN_1_Pin GPIO_PIN_3
+#define LED_GREEN_1_GPIO_Port GPIOA
+#define LED_RED_2_Pin GPIO_PIN_4
+#define LED_RED_2_GPIO_Port GPIOA
+#define LED_YELLOW_2_Pin GPIO_PIN_5
+#define LED_YELLOW_2_GPIO_Port GPIOA
+#define LED_GREEN_2_Pin GPIO_PIN_6
+#define LED_GREEN_2_GPIO_Port GPIOA
 #define LED7_a_Pin GPIO_PIN_0
 #define LED7_a_GPIO_Port GPIOB
 #define LED7_b_Pin GPIO_PIN_1
 #define LED7_b_GPIO_Port GPIOB
 #define LED7_c_Pin GPIO_PIN_2
 #define LED7_c_GPIO_Port GPIOB
+#define LED7_k_Pin GPIO_PIN_10
+#define LED7_k_GPIO_Port GPIOB
+#define LED7_l_Pin GPIO_PIN_11
+#define LED7_l_GPIO_Port GPIOB
+#define LED7_m_Pin GPIO_PIN_12
+#define LED7_m_GPIO_Port GPIOB
+#define LED7_n_Pin GPIO_PIN_13
+#define LED7_n_GPIO_Port GPIOB
 #define LED7_d_Pin GPIO_PIN_3
 #define LED7_d_GPIO_Port GPIOB
 #define LED7_e_Pin GPIO_PIN_4
@@ -79,6 +92,12 @@ void Error_Handler(void);
 #define LED7_f_GPIO_Port GPIOB
 #define LED7_g_Pin GPIO_PIN_6
 #define LED7_g_GPIO_Port GPIOB
+#define LED7_h_Pin GPIO_PIN_7
+#define LED7_h_GPIO_Port GPIOB
+#define LED7_i_Pin GPIO_PIN_8
+#define LED7_i_GPIO_Port GPIOB
+#define LED7_j_Pin GPIO_PIN_9
+#define LED7_j_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
